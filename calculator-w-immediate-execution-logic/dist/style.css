@@ -1,0 +1,79 @@
+.box{
+  border: 5px solid black;
+  width: 300px;
+  min-height: 350px;
+  margin-top: 60px;
+  margin-left: 100px;
+  background-color: black;
+}
+
+.display{
+  font-family: 'Old Standard TT', serif;
+  background-color: #ced6e0;
+  outline: 5px solid black;
+  width: 290px;
+  margin-top: 0px;
+  min-height: 50px;
+  left: 0;
+  text-align: right;
+}
+
+.operations{
+  font-family: 'Old Standard TT', serif;
+  outline: 5px solid black;
+  outline-style: none;
+  width: 270px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  vertical-align: text-top;
+  text-align: left;
+}
+
+#clear{
+  width: 135px;
+  height: 52px;
+}
+
+button{
+  background-color: black;
+  outline: 0.5px solid black;
+  border: none;
+  width: 67.5px;
+  height: 52px;
+  vertical-align: top;
+  background-color: #535c68;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover{
+  opacity: 0.9;
+  outline: 0.05em solid grey;
+  z-index: 3;
+}
+
+button:active{
+  transform: scale(0.96);
+}
+
+.formula{
+  background-color: #95afc0;
+}
+
+#zero{
+  width: 135px;
+}
+
+#dot{
+}
+
+#equal{
+  height: 104px;
+  margin-bottom: -52px;
+  background-color: #686de0;
+}
+
+#clear{
+  background-color: #eb4d4b;
+}
